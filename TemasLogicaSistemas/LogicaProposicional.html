@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Proposicional</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Encabezado -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Logica Proposicional</h1>
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+<main>
+<!--Contenido-->
+    <nav class="nav_contenido">
+        <h2 class="subtitle2">Lógica Simbólica</h2>
+        <p>También llamada lógica matemática. Es el estudio formal y
+            simbólico de la lógica y su aplicación a diferentes áreas de la
+            matemática y la ciencia.</p>
+        <p>Estudia la aplicación de las técnicas matemáticas a la
+            representación y análisis de la lógica formal.</p>
+        <p>Estudia la inferencia mediante la construcción de sistemas
+            formales como la lógica proposicional, la lógica de primer orden
+            y la lógica modal.</p>
+        
+        <h2 class="subtitle2">Lógica Proposicional</h2>
+        <p>También llamada lógica de orden cero es la rama
+            de la lógica matemática que estudia proposiciones,
+            afirmaciones u oraciones, los métodos de
+            vincularlas mediante conectores lógicos y las
+            relaciones y propiedades que se derivan de esos
+            procedimientos.</p>
+        <p><strong> Fundador:</strong> Gottfried Leibniz - Siglo XVII y XVIII</p>
+        
+        <h2 class="subtitle2">Proposición</h2>
+        <p>Una proposición, es toda oración o enunciado al cual se le asigna cierto
+            valor de verdad (V o F). Si no se puede concluir que es verdadera o falsa
+            la proposición, entonces no es proposición.</p>
+        
+        <h2 class="subtitle2">Tipos de proposiones</h2>
+        <h3 class="subtitle4">PROPOSICIONES SIMPLES (PROPOSICIÓN ATÓMICA):</h3>
+        <p>Son aquellas que no son afectadas por negaciones ("no") o términos de enlace como
+            conjunciones ("y"), disyunciones ("o") o bien implicaciones ("si. . . entonces"), además
+            éstas no pueden ser descompuestas en proposiciones más simples.</p>
+        <h3 class="subtitle4">PROPOSICIONES COMPUESTAS (PROPOSICIÓN MOLECULAR):</h3>
+        <p>Una proposición es compuesta si no es simple, es decir, si esta afectada por negaciones o
+            términos de enlace entre proposiciones atómicas. Puede ser descompuesta en
+            proposiciones simples atómicas.</p>
+        <h2 class="subtitle2">Variables</h2>
+        <p>En el lenguaje simbólico de la lógica de proposiciones, a los
+            enunciados simples, atómicos o elementales. Se les llama
+            variables, y se representan con las letras minúsculas del final
+            del abecedario: “p”, “q”, “r”, “s”.</p>
+        <p>Además de las variables, la lógica proposicional tiene otros
+            elementos en su alfabeto: las constantes lógicas y los símbolos
+            auxiliares que forman los enunciados compuestos (operadores
+            lógicos).
+            </p>
+        
+        <h2 class="subtitle2">
+            Proposiciones Atomicas y No Atomicas
+        </h2>
+            <table>
+                <tr>
+                    <th>Proposición</th>
+                    <th>Tipo</th>
+                    <th>Simbolización</th>
+                </tr>
+                <tr>
+                    <td>El cielo es azul</td>
+                    <td>simple</td>
+                    <td>p</td>
+                </tr>
+                <tr>
+                    <td>La capital de Rusia es Moscú</td>
+                    <td>simple</td>
+                    <td>q</td>
+                </tr>
+                <tr>
+                    <td>Esta lloviendo y hace calor</td>
+                    <td>compuesta</td>
+                    <td>p y q</td>
+                </tr>
+                <tr>
+                    <td>Micuñado es arquitecto e ingeniero</td>
+                    <td>compuesta</td>
+                    <td>r y s</td>
+                </tr>
+                <tr>
+                    <td>Las células son procariotas o eucariotas</td>
+                    <td>compuesta</td>
+                    <td>p o q</td>
+                </tr>
+                <tr>
+                    <td>Una ballena no es roja</td>
+                    <td>compuesta</td>
+                    <td>No q</td>
+                </tr>
+                <tr>
+                    <td>Messi es el mejor jugador del mundo</td>
+                    <td>simple</td>
+                    <td>q</td>
+                </tr>
+            </table>
+        
+        <h2 class="subtitle2">
+            Operadores Lógicos
+        </h2>
+        <p>El primer paso para simbolizar un argumento es definir los
+            símbolos básicos o conectivos lógicos.</p>
+        <table>
+            <tr>
+                <td>¬</td>
+                <td>No</td>
+                <td>Negación</td>
+                <td>~</td>
+            </tr>
+            <tr>
+                <td>^</td>
+                <td>Y</td>
+                <td>Conjuncion</td>
+                <td>•</td>
+            </tr>
+            <tr>
+                <td>v</td>
+                <td>O</td>
+                <td>Disyunción inclusiva</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>○</td>
+                <td>O ... O</td>
+                <td>Disyunción exclusiva</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>→</td>
+                <td>SI ... entonces</td>
+                <td>Condicional</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>↔</td>
+                <td>Si y Solo si</td>
+                <td>Bicondicional</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <h2 class="subtitle2">
+            La Negación (¬)
+        </h2>
+        <p>Permite negar una proposición atómica o una
+            proposición compuesta.</p>
+        <p>Llevan el adverbio de negación 'no', o sus expresiones equivalentes
+            “nunca”, “jamás”, “tampoco”, “no es verdad que”, “no es cierto que”, “es
+            falso que”, “le falta”, “carece de”, “sin”, “imposible”, etc.</p>
+        
+        <h2 class="subtitle2">
+            La Conjuncion (^)
+        </h2>
+        <p>Enlaza proposiciones por el conectivo “y”, o sus
+            expresiones equivalentes como “e”, “pero”, “aunque”, “aun cuando”,
+            “tanto... como...”,”sino”, “ni...ni”, “sin embargo”, “además”, etc.</p>
+        <p>Se representan simbólicamente al unir dos proposiciones atómicas como
+            por ejemplo p y q; p no obstante q; p sin embargo q.</p>
+        
+        <h2 class="subtitle2">
+            Disyunción (v)
+        </h2>
+        <p>La conjunción disyuntiva “o”, y sus expresiones
+            equivalentes como “u”, “ya... ya”, “bien...bien”, “ora... ora”, “sea... sea”,
+            “y/o”, o...o (excluyente) etc., son utilizadas para la disyunción y unión entre
+            proposiciones atómicas.</p>
+        <p>La disyunción exclusiva  no admite que las
+        dos alternativas se den a la vez</p>
+        <p>La disyunción inclusiva v admite que dos
+            alternativas se den a la vez.</p>
+        
+        <h2 class="subtitle2">
+            La Condicional (→)
+        </h2>
+        <p>Es la forma enunciativa que simboliza enunciados
+            enlazados por expresiones equivalentes como “si... entonces...”, “...debido a
+            que ...”, “si”, “siempre que”, “con tal que”, “puesto que”, “ya que”, “porque”,
+            “cuando”, “de”, “a menos que”, “a no ser que”, “salvo que”, “sólo si”,
+            “solamente si”, “dado que”, “ningún...es donde P es el antecedente y q el
+            consecuente.</p>
+        
+        <h2 class="subtitle2">
+            La Bicondicional (↔)
+        </h2>
+         <p>Establece dos condicionales, pero en sentido
+            inverso. Simboliza enunciados de forma “... sí y sólo si...”, o sus expresiones
+            equivalentes como “cuando y sólo cuando”, “si..., entonces y sólo
+            entonces...”, “es equivalente a” etc.</p>
+        
+        <h2 class="subtitle2">
+            Simbolización de Proposiciones
+        </h2>
+        <p>
+            Implica tomar el lenguaje natural y simbolizarlo, a esto se le llama Formalización
+        </p>
+        <div class="lista">
+            <ol>
+                <h3 class="subtitle4">Para formalizar un argumento es necesario reconocer:</h3>
+                <li>Identiicar las proposiciones simples.</li>
+                <li>Reconocer los conectivos lógicos de enlace e la proposición compuesta.</li>
+                <li>Asignar una variable a cada proposición simple.</li>
+                <li>Escribir la nueva proposición formalizada.</li>
+            </ol>
+        </div>
+        <h2 class="subtitle2">
+            Formalización de Argumentos
+        </h2>
+        <p>Se dice forma argumentativa o forma condicional a la sucesión finita de cada
+            premisa y la conclusión, una forma argumentativa es válida si la conclusión se
+            deriva de sus premisas:</p>
+            <div class="lista">
+            <ul>
+                <li>Una conclusión derivada de las premisas, se llama consecuencia lógica.</li>
+                <li>Así, la forma argumentativa será válida solo si, la conclusión es derivada de sus
+                    premisas.</li>
+                <li>Finalmente, la forma argumentativa p1, p2, p3, pn, ∆ C es válida (∆C es consecuencia
+                    lógica de pn) si y solo si:</li>
+            </ul>
+            </div>
+        <h1 class="ejemplo">P1^P2^P3^Pn → C</h1>
+        
+        <h2 class="subtitle2">
+            Proposiciones sin orden en las premisas:
+        </h2>
+        <p>Para identificar las premisas y la conclusión que no tengan un orden, conviene
+            tener en cuenta estas sencillas indicaciones:</p>
+        <p class="nota">Preceden a una premisa: “ya que”, “puesto
+            que”, “pues”, “porque”, “siempre que”, etc., es
+            decir los conectivos lógicos vistos antes.</p>
+        <p>Preceden a la conclusión las partículas:
+            </p>
+        <p class="nota">Preceden a una premisa: “por tanto”, “por
+            consiguiente”, “en consecuencia”, “en
+            conclusión”, “de manera que”, etc., es decir los
+            conectivos lógicos vistos antes.</p>
+        <p>Ejemplo:
+            Cuba es una isla comunista, entonces
+            Taiwan es una isla rebelde. Cuba es una
+            isla comunista, entonces esta aislado del
+            mundo. Luego, Cuba no es una isla
+            comunista.
+            </p>
+        
+        <h2 class="subtitle2">Formalizar</h2>
+        <p>Usted estudia otro software, siempre que usted comprenda lógica algorítmica. Se
+            cuestiona sus habilidades, puesto que le surgen dudas para proceder. Estudia
+            otro software o se cuestiona sus habilidades. Por lo tanto, usted comprende
+            lógica algorítmica o le surgen dudas para proceder.</p>
+        <p>Pm1: Usted estudia otro software, siempre que usted comprenda lógica
+            algorítmica.</p>
+        <p>Pm2: Se cuestiona sus habilidades, puesto que le surgen dudas para proceder.</p>
+        <p>Pm3: Estudia otro software o se cuestiona sus habilidades.</p>
+        <p>C: Por lo tanto, usted comprende lógica algorítmica o le surgen dudas para
+            proceder.</p>
+
+        <h3 class="subtitle4">simbolizar</h3>
+        <p>p: Usted estudia otro software.</p>
+        <p>q: Usted comprende lógica algorítmica.</p>
+        <p>r: Se cuestionan sus habilidades.</p>
+        <p>s: Le surgen dudas para proceder.</p>
+        <h3 class="subtitle4">Formalizar el argumento</h3>
+            <p>p→q</p>
+            <p>r→s</p>
+            <p class="conclusión">pvr</p>
+            <p>qvs</p>
+        <h3 class="subtitle4">Forma condicional</h3>
+        <p>[(p→q)^(r→s)^(pvr)]→(qvs)</p>
+        
+        <h2 class="subtitle2">VALIDEZ CON TABLAS DE VERDAD:</h2>
+        <p>Es una tabla que muestra el valor de verdad de una proposición compuesta, para
+            cada combinación de verdad que se pueda asignar.</p>
+        <p>Podemos clasificar las proposiciones compuestas en tres categorías diferentes
+            usando las características de sus tablas de verdad:</p>
+        <div class="lista">
+            <ul>
+                <li>Tautología: Cuando el análisis de la proposición es verdadero (V) en su
+                    totalidad</li>
+                <li>Contradicción: Si el análisis de la proposición es (F) en su totalidad.</li>
+                <li>Contingencia: Si no es verdadero (V) ni falso (F).</li>
+            </ul>
+        </div>
+        
+        <h2 class="subtitle2">Procedencia de los Operadores</h2>
+        <p>Se debe observar el orden de los operadores y la precedencia antes de proceder
+            a evaluar.</p>
+        <p>Similar al algebra elemental, que tiene prioridad en las operaciones, también se
+            tiene precedencia con los operadores lógicos.</p>
+        <p class="nota">El orden a operar será desde la mayor precedencia a la menor precedencia, la tabla
+            indica la precedencia.
+            </p>
+        <table>
+            <tr>
+                <td>Nivle 3</td>
+                <td>¬</td>
+                <td>Mayor precedencia</td>
+            </tr>
+            <tr>
+                <td>Nivel 2</td>
+                <td> ^ y v</td>
+                <td>Misma Prioridad</td>
+            </tr>
+            <tr>
+                <td>Nivel 1</td>
+                <td>→, ↔</td>
+                <td>Menor precedencia</td>
+            </tr>
+            <tr>
+                <td>Nivel 0</td>
+                <td>Proposición</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <h2 class="subtitle2">
+            Constucción de la Tabla de Verdad
+        </h2>
+        <p>Valores de verdad (V, F)</p> <h1 class="subtitle3">2n</h1><p> (n) Numero de proposicones simbolizadas p, q</p>
+        <h3 class="subtitle4">Conjuncion (Y):</h3>
+        <p>La sentencia será verdadera sólo
+            cuando ambas variables
+            proposicionales sean verdaderas.</p>
+            <div class="tabla">
+            <table>
+                <tr>
+                    <th>p</th>
+                    <th>q</th>
+                    <th>p^q</th>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>V</td>
+                    <td>V</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>F</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>V</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>F</td>
+                    <td>F</td>
+                </tr>
+            </table>
+            </div>
+            <h3 class="subtitle4">Disyunción inclusiva (O):</h3>
+            <p>La sentencia será verdadera cuando
+                una o ambas variables proposicionales
+                sean verdaderas.</p>
+                <table>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p v q</th>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>F</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>V</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>F</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+                <h3 class="subtitle4">Negación NO (¬):</h3>
+                <p>Consiste en cambiar el valor de
+                    verdad de una variable proposicional.</p>
+                    <table>
+                        <tr>
+                            <th>p</th>
+                            <th>¬p</th>
+                        </tr>
+                        <tr>
+                            <td>V</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>V</td>
+                        </tr>
+                    </table>
+                    <h3 class="subtitle4">Disyunción exclusiva (O ... O):</h3>
+                    <p>La sentencia será verdadera sólo cuando una de
+                        las dos variables proposicionales sea verdadera.</p>
+                        <table>
+                            <tr>
+                                <th>p</th>
+                                <th>q</th>
+                                <th>p + q</th>
+                            </tr>
+                            <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>F</td>
+                            </tr>
+                            <tr>
+                                <td>V</td>
+                                <td>F</td>
+                                <td>V</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>V</td>
+                                <td>V</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>F</td>
+                                <td>F</td>
+                            </tr>
+                        </table>
+                        <h3 class="subtitle4">Condicional(SI... entonces)</h3>
+                        <p>La sentencia será verdadera cuando se
+                            cumpla que, si es válido p entonces lo es q,
+                            para recordar esta tabla se puede decir que
+                            nunca puede haber una premisa verdadera
+                            y una conclusión falsa, o más simple,
+                            verdadera y falsa siempre será falsa, todo lo
+                            demás será verdadero. (Para la condicional)</p>
+                            <table>
+                                <tr>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>p → q</th>
+                                </tr>
+                                <tr>
+                                    <td>V</td>
+                                    <td>V</td>
+                                    <td>V</td>
+                                </tr>
+                                <tr>
+                                    <td>V</td>
+                                    <td>F</td>
+                                    <td>F</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>V</td>
+                                    <td>V</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>F</td>
+                                    <td>V</td>
+                                </tr>
+                            </table>
+                            <h3 class="subtitle4">Bicondicional(... Si y solo si...)</h3>
+                            <p>La sentencia será verdadera cuando
+                                ambas variables proposicionales sean
+                                iguales o ambas verdaderas o ambas
+                                falsas.</p>
+                                <table>
+                                    <tr>
+                                        <th>p</th>
+                                        <th>q</th>
+                                        <th>p ↔ q</th>
+                                    </tr>
+                                    <tr>
+                                        <td>V</td>
+                                        <td>V</td>
+                                        <td>V</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V</td>
+                                        <td>F</td>
+                                        <td>F</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F</td>
+                                        <td>V</td>
+                                        <td>F</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F</td>
+                                        <td>F</td>
+                                        <td>V</td>
+                                    </tr>
+                                </table>
+    </nav>
+</main>
+</body>
+</html>

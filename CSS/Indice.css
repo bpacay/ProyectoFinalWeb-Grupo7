@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template: "nav__m nav__Indice";
+    grid-template-columns: 1.45fr 9fr;
+}
+
+/* Contenido */
+
+.nav_Indice{
+    grid-area: nav__Indice;
+}
+
+.ul_Indice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.ul_Indice li{
+    padding: 5px;
+}
+
+.tema_Indice{
+    background-color: indianred;
+    padding: 35px;
+    width: 500px;
+    margin: 25px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.tema_Indice:hover{
+    background-color: rgb(238, 109, 109);
+    cursor: pointer;
+}
+
+.titulo_Indice{
+    padding: 3px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 15px;
+}
+.Indice{
+    text-decoration: none;
+    color: black;
+}
+

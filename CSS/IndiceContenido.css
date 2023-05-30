@@ -1,0 +1,73 @@
+/* Contenido */
+
+/*.nav_contenido{
+    grid-area: nav_contenido;
+}*/
+
+p{
+    padding: 10px;
+    text-align: center;
+}
+
+/*Tabla*/
+table{
+    margin: 0 auto;
+    padding: 25px;
+}
+
+table th{
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;   
+}
+
+table td{
+    background-color: #CB4154;
+    text-align: center;
+    padding: 15px;
+}
+
+.ejemplo{
+    text-align: center;
+    padding: 25px;
+}
+.nota{
+    background-color: rgba(203, 65, 84, .6);
+    box-shadow: #CB4154 6px 3px 3px 0px;
+    margin: 15px;
+}
+.conclusión{
+    text-decoration: underline 2px;
+}
+
+.obj{
+    text-align: center;
+}
+
+.img{
+    width: 35vw;
+    border-radius: 3vw;
+    padding: 2vw;
+}
+
+.subtitle4{
+    text-align: center;
+}
+
+.lista{
+    padding: 1vw;
+    margin: 0px 20vw 0px 20vw;
+    text-align: left;
+}
+
+.dis{
+    background-color: lightgreen;
+}
+
+.nodis{
+    background-color: lightpink;
+}
+
+.subtable{
+    padding: 0;
+}

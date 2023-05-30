@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglas de Reemplazo</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+</head> 
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Indice -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Reglas de Reemplazo</h1>
+
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+
+    <main>
+        <h2 class="subtitle2">Reglas de reemplazo</h2>
+            <p>Una regla de Reemplazo es una expresión equivalente a una proposición
+                que originalmente no tiene equivalente por alguna regla de inferencia,
+                esta nueva proposición lógica es equivalente a la original.</p>
+            <p>Se deben utilizar las reglas de reemplazo cuando las reglas de “inferencia”
+                no son suficientes para probar validez.</p>
+            <p>Las reglas de reemplazo también son utilizadas para simplificar estructuras
+                proposicionales, encontrar formas más simples pero equivalentes.</p>
+
+        <h2 class="subtitle2">Leyes de De DeMorgan</h2>
+        <p>Son un par de leyes de transformación y que son ambas reglas de
+            inferencia válidas. Las normas permiten la expresión de las
+            conjunciones y disyunciones puramente en términos de vía negación.</p>
+            <div class="obj">
+                <img src="/IMG/Demorgan.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes Conmutativas</h2>
+        <p>Así como en las matemáticas el orden de factores no altera el
+            producto, en lógica el orden de los argumentos no altera el resultado
+            en ningún caso, con excepción de la implicación. Esta regla sólo aplica
+            a conjunciones y disyunciones.</p>
+            <div class="obj">
+                <img src="/IMG/Conmutativa.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes Asociativas</h2>
+        <p>Esta ley indica que, cuando existen tres o más proposiciones en estas
+            operaciones, su valor de verdad no depende de la manera en la que se
+            agrupan las proposiciones.</p>
+            <div class="obj">
+                <img src="/IMG/Asosiativa.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes Distributivas</h2>
+        <p>La ley distributiva es aquella en la que la conjunción de una
+            proposición por una disyunción va a ser equivalente a la disyunción de
+            cada una de las conjunciones por esa proposición.</p>
+            <div class="obj">
+                <img src="/IMG/Distributiva.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes de Idempotencia</h2>
+        <p>Es la propiedad para realizar una acción determinada varias veces y
+            aun así conseguir el mismo resultado que se obtendría si se realizase
+            una sola vez. De esta manera, si un elemento al hacer conjunción por
+            sí misma sucesivas veces da lo mismo, este elemento es idempotente.</p>
+            <div class="obj">
+                <img src="/IMG/Idepotencia.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes de Elemento Neutro</h2>
+        <p>Esta ley se aplica cuando una proposición este conectada con una
+            conjunción o disyunción a un elemento sea verdadero o falso, siempre
+            se obtendrá el valor del de la proposición.</p>
+            <div class="obj">
+                <img src="/IMG/ENeutro.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes de Dominación</h2>
+        <p>Esta ley se aplica cuando una proposición este conectada con una
+            conjunción o disyunción a un elemento sea verdadero o falso, siempre
+            se obtendrá mismo valor de verdad.</p>
+            <div class="obj">
+                <img src="/IMG/Dominacion.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes de los Inversos (Tercio Excluido)</h2>
+        <p>Esta ley aplica cuando una proposición con valores de verdad opuestos
+            unidos por una disyunción será verdadero pues es posible que uno sea
+            verdadero u otro falso, en ese caso el resultado será un valor
+            verdadero. Cuando la proposición este unida por una conjunción será
+            falso pues esto sería una contradicción.</p>
+            <div class="obj">
+                <img src="/IMG/TercioExcluido.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Leyes de Absorción</h2>
+        <p>La regla hace posible introducir conjunciones en pruebas .Esto se
+            llama "ley de absorción“ Ya que el termino P es "absorbido "por el
+            termino Q en la consecuencia.</p>
+            <div class="obj">
+                <img src="/IMG/Absorcion.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Ley de la Doble Negación</h2>
+        <p>Dentro de un sistema de lógica clásica, la doble negación, esto es, la
+            negación de la negación de una proposición p, es lógicamente
+            equivalente a p.</p>
+            <div class="obj">
+                <img src="/IMG/Doblenegacion.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Ley de la Implicación Material, Condicional</h2>
+        <p>Es una regla de reemplazo válida que permite que una declaración
+            condicional sea sustituida por una disyunción si y solo si el
+            antecedente es negado.</p>
+            <div class="obj">
+                <img src="/IMG/Condicional.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Ley de Transposición</h2>
+        <p>Es una regla de reemplazo válida de que permite que se cambie el
+            antecedente con el consecuente de una sentencia condicional en una
+            prueba lógica si ellos también son ambos negados.</p>
+            <div class="obj">
+                <img src="/IMG/Transposicion.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Ley de Exportación</h2>
+        <p>Esta regla permite que proposiciones condicionales con antecedentes
+            conjuntivos se sustituyan por proposiciones que tienen consecuentes
+            condicionales y viceversa.</p>
+            <div class="obj">
+                <img src="/IMG/Exportacion.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Tautología</h2>
+        <p>Elimina la redundancia en disyunciones y conjunciones en las
+            demostraciones lógicas.</p>
+            <div class="obj">
+                <img src="/IMG/LeyTautologia.png" alt="" class="img">
+            </div>
+          
+    </main>
+</body>
+</html>

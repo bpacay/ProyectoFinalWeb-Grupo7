@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deducción Natural</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Indice -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Deducción Natural</h1>
+
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+
+    <main>
+        <h2 class="subtitle2">Método de Demostración por Deducción Natural</h2>
+        <p>Los métodos que hemos visto hasta ahora para comprobar
+            validez lógica, han sido, algunos muy extensos (tabla de
+            verdad) y otros no muy directos (figuras del silogismo) con
+            poca capacidad de análisis para argumento con más de 2
+            premisas.</p>
+        <p>Este método (Deducción Natural) mejorara el cálculo de validez
+            lógica aplicando reglas de inferencia (Ver Modulos de
+            reglas), reglas que son útiles para argumentos con más de 2
+            premisas, se complementa el estudio con las reglas de
+            reemplazo.</p>
+        <p>El método de deducción natural es simple, versátil y efectivo,
+            éste permitirá analizar rápidamente validez de un enunciado
+            lógico previamente formalizado. La deducción natural sigue un
+            método directo con el cual llegaremos fácilmente a comprobar
+            la conclusión, este método permite tener tantas premisas como
+            se quiera, sin tener que construir grandes tablas de verdad o
+            analizar premisas muy complejas, algo que no puede trabajarse
+            fácilmente por los métodos antes expuestos.</p>
+        <h2 class="subtitle2">Un poco de Historia</h2>
+        <p>La deducción natural fue introducida por
+            Gerhard Gentzen - (Greifswald, Alemania, 24 de
+            noviembre de 1909 - Praga, República Checa, 4
+            de agosto de 1945) fue un matemático y lógico
+            alemán.</p>
+        <p>En su trabajo Investigaciones sobre la inferencia
+            lógica (Untersuchungen über das logische
+            Schliessen), publicado en 1934-1935.</p>
+            <div class="obj">
+                <img src="/IMG/Gerhard.png" alt="" class="img">
+            </div>
+        <h2 class="subtitle2">Deducción Natural</h2>
+        <div class="lista">
+            <ul>
+                <li>El método de la deducción natural es una prueba formal empleada para
+                    determinar la validez de un argumento.</li>
+                <li>Esta prueba está constituida por una sucesión de enunciados de los cuales
+                    algunos son premisas del argumento a ser validado, y otros son incorporados
+                    en el curso de la prueba luego de ser deducidos a través de la aplicación de
+                    dos tipos de reglas, a saber, las denominadas “reglas de inferencia” y las
+                    llamadas “reglas de reemplazo”.</li>
+                <li>De modo que el último enunciado de la serie viene a ser la conclusión del
+                    argumento que se pretende evaluar.</li>
+            </ul>
+        </div>
+        <h2 class="subtitle2">Método de Calculo por Deducción Natural</h2>
+        <p>La deducción natural puede ser directa e indirecta:</p>
+        <p><strong>Directa:</strong> La conclusión se obtiene desde las premisas por la aplicación de las reglas de
+            inferencia en forma sucesiva.</p>
+        <p><strong>Indirecta o reducción al absurdo:</strong> Se realiza cuando no logramos un resultado adecuado
+            con la deducción directa. El procedimiento es el siguiente:</p>
+            <div class="lista">
+                <ol>
+                    <li>Se inicia suponiendo la falsedad de la conclusión.</li>
+                    <li>Se aplican reglas de inferencia y reemplazo.</li>
+                    <li>Si de este supuesto se llega a una conclusión se rechaza.</li>
+                    <li>Se afirma, si llega a la conclusión deseada.</li>
+                </ol>
+            </div>
+            <div class="lista">
+                <ol>
+                    <li>Cada fórmula va en una línea.</li>
+                    <li>Cada Línea va numerada en correlativo desde el número 1, esto a la izquierda de la fórmula</li>
+                    <li>Las Premisas tiene una marca horizontal a la izquierda de nuúmero correlativo.</li>
+                    <p>~2. p ^ q</p>
+                    <li>Se añade un comentario a la derecha de la fórmula indicando la regla de inferencia aplicada y
+                        el número de línea de la premisa utilizada para la deducción.</li>
+                    <p>~3. r MP(2,5)</p>
+                    <li>Si introduce un supuesto provisional, (Hipótesis cuando sea necesario) pero no debe perderla
+                        de vista, porque tiene que eliminarlo antes de la conclusión. Este supuesto es una Hipótesis
+                        que puede ser la negación de la conclusión.</li>
+                    <p>~4. r^s Subsidiario (H)</p>
+                </ol>
+            </div>
+            <p>El final de trabajo de deducción debe ser la conclusión antes conocida que estamos analizando a
+                partir de sus premisas.</p>
+        <h2 class="subtitle2">Método Directo</h2>
+        <div class="obj">
+            <img src="/IMG/DNDirecto.png" alt="" class="img">
+        </div>
+        <h2 class="subtitle2">Deducción Natural - Reducción al Absurdo</h2>
+        <p>Si a partir de supuesto p se construye una contradicción (contraria), se
+            cancela la relación entre ambas proposiciones por lo tanto p es falso.</p>
+        <p>No es posible que sea verdad la conjunción de una afirmación y una
+            negación</p>
+        <div class="obj">
+            <img src="/IMG/AbsurdoDN1.png" alt="" class="img">
+        </div>
+        <div class="obj">
+            <img src="/IMG/AbsurdoDN2.png" alt="" class="img">
+        </div>
+        <h2 class="subtitle2">Aplicaciones de la lógica en La Ingeniería en Sistemas</h2>
+        <div class="lista">
+            <ol>
+                <li>Desarrollar habilidades para resolver problemas, a través de la
+                    elaboración de argumentos validos con métodos formales.</li>
+                <li>Algoritmos básicos de programación, desarrollo de lenguajes de
+                    programación.</li>
+                <li>Base fundamental para creación de sistemas digitales.</li>
+                <li>Inteligencia Artificial</li>
+            </ol>
+        </div>
+        <div class="obj">
+            <img src="/IMG/Aplicasiones.png" alt="" class="img">
+        </div>
+    </main>
+    
+</body>
+</html>

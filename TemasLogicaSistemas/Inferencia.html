@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglas de Inferencia</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Indice -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Reglas de Inferencia</h1>
+
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+    
+<main>
+    <h1 class="subtitle2">Relgas de Inferencia</h1>
+    
+                    <h2 class="subtitle2">Modus Ponendo Ponens</h2>
+                    <p>Si p implica q, y p es verdadera, entonces q es cierta. Esta regla nos permite, a partir de un enunciado condicional (p → q), concluir la
+                        verdad de su consecuente (q) a partir de la verdad de su antecedente (p)</p>
+                    <div class="obj">
+                        <img src="/IMG/Modusponens.png" alt="" class="img">
+                    </div>
+
+                    <h2 class="subtitle2">Modus Tollendo Tollens</h2>
+                    <p>Si p implica q, y q no es cierta, entonces p no es cierta. Esta regla nos permite, a partir de un enunciado condicional (p → q), inferir la
+                        falsedad de su antecedente (p) si su consecuente (q) también es falso.</p>
+                    <div class="obj">
+                        <img src="/IMG/MT.png" alt="" class="img">
+                    </div>
+
+                    <h2 class="subtitle2">Silogismo Hipotetico</h2>
+                    <p>Si p implica q, y q implica r, entonces p implica r. La regla del silogismo hipotético nos permite establecer que la verdad de p implica la
+                        verdad de r.</p>
+                        <div class="obj">
+                            <img src="/IMG/SH.png" alt="" class="img">
+                        </div>
+                    
+                    <h2 class="subtitle2">Silogismo Disyuntivo</h2>
+                    <p>Ya sea que p es cierta o q es cierta; p no es cierta; por lo tanto, q es cierta. De la misma manera, si p es cierta o q es cierta; q no es cierta; por lo tanto, p es
+                        cierta.Esta regla nos dice que, si una disyunción de dos proposiciones es verdadera, y una
+                        de las proposiciones es falsa, entonces la otra proposición es verdadera.</p>
+                <div class="obj">
+                    <img src="/IMG/SD.png" alt="" class="img">
+                </div>
+
+                    <h2 class="subtitle2">Dilema Constructivo</h2>
+                    <p>Si p implica q y r implica s, entonces si p o r es verdadera, se deduce que, o
+                        bien q o s es verdadera. El dilema constructivo es la versión disyuntiva del modus ponens.</p>
+                        <div class="obj">
+                            <img src="/IMG/DC.png" alt="" class="img">
+                        </div>
+
+                    <h2 class="subtitle2">Dilema Destructivo</h2>
+                    <p>Si P implica q, y r implica s, y, o bien q es falsa o s es falsa; entonces o p es falsa o r es
+                        falsa. El dilema destructivo es la versión disyuntiva del modus tollens y establece que si
+                        dos condicionales son verdaderos, pero uno de sus consecuentes es falso, entonces
+                        uno de sus antecedentes tiene que ser falso.</p>
+                <div class="obj">
+                    <img src="/IMG/DD.png" alt="" class="img">
+                </div>
+
+                    <h2 class="subtitle2">Conjunción</h2>
+                    <p>Si p es cierta y q es cierta, entonces la conjunción “p y q” también es cierta. Sencillo, si de manera aislada dos proposiciones son verdaderas, entonces su
+                        conjunción también lo es.</p>
+                        <div class="obj">
+                            <img src="/IMG/CONJ.png" alt="" class="img">
+                        </div>
+
+                    <h2 class="subtitle2">Simplificación</h2>
+                    <p>Si la conjunción de p y q es cierta, entonces p es cierta y q es cierta. Para que un conjunto como p ^ q sea cierto, p y q deben ser ciertas. Así que la
+                        simplificación nos permite concluir de p ^ q que p es cierta y que q es cierta.</p>
+                        <div class="obj">
+                            <img src="/IMG/SIMP.png" alt="" class="img">
+                        </div>
+
+                    <h2 class="subtitle2">Ley de Absorción</h2>
+                    <p>Si p implica q, entonces p implica p y q. Por medio de esta regla p es “absorbida” por el término q en la consecuencia.</p>
+                    <div class="obj">
+                        <img src="/IMG/ABS.png" alt="" class="img">
+                    </div>
+
+                    <h2 class="subtitle2">Ley de Adición</h2>
+                    <p>Si p es verdadera, entonces su disyunción con cualquier otro enunciado también
+                        será cierta. Hay que tener en cuenta que para que una disyunción sea verdad, sólo una parte de
+                        la disyunción tiene que ser verdad. Así que, dado un enunciado cualquiera, es
+                        posible expresarlo como una elección (disyunción) acompañado por cualquier otro
+                        enunciado. Por lo que si sabemos que p ya es una verdad, se deduce que “p o q” es también
+                        verdad sin importar lo que q sea.</p>
+                        <div class="obj">
+                            <img src="/IMG/AD.png" alt="" class="img">
+                        </div>
+                
+                    <h2 class="subtitle2">Teorema de la Deducción</h2>
+                    <p>Es la regla básica que permite introducir el implicador en dos enunciados de un
+                        argumento. El esquema de esta regla de inferencia sería el siguiente: </p>
+                        <div class="obj">
+                            <img src="/IMG/TD.png" alt="" class="img">
+                        </div>
+
+                    <h2 class="subtitle2">Introducción a la Negación</h2>
+                    <p>Si a partir de una proposición p se construye una contradicción (contraria), se cancela
+                        la relación entre ambas proposiciones por lo tanto P es falso.
+                        No es posible que sea verdad la conjunción de una afirmación y una negación</p>
+                        <div class="obj">
+                            <img src="/IMG/IN.png" alt="" class="img">
+                        </div>
+</main>
+</body>
+</html>

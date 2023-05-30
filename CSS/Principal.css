@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E7DBCB;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+.UMG{
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: tomato;
+    width: 15vw;
+    border-radius: 0vw 0vw 5vw 5vw;
+}
+
+.td1{
+    padding-top: 45px;
+}
+
+.img{
+    width: 70vw;
+    border-radius: 0vw 0vw 30vw 3vw;
+}
+
+.lema{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+.banner{
+    margin: 25px;
+    background-color: #CCCCCC;
+    border: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.banner.banner1:hover{
+    background-color: gray;
+    font-size: larger;
+}
+
+.banner.banner2:hover{
+    background-color: #9a5833;
+    font-size: larger;
+}
+
+.banner.banner3:hover{
+    background-color: #1A66CC;
+    font-size: larger;
+}
+
+.banner.banner4:hover{
+    background-color:  #fe8330;
+    font-size: larger;
+}
+
+.banner.banner5:hover{
+    background-color: #CB4154;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+footer{
+    grid-area: pie;
+    color: aliceblue;
+    background-color: black;
+    overflow: hidden;
+}
+
+.td2{
+    padding-left: 25px;
+}

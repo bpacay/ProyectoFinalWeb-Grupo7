@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplificación</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Indice -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Simplificación</h1>
+
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+    <main>
+        <h2 class="subtitle2">Simplificación de Proposiciones</h2>
+        <p>Simplificar una proposición consiste en escribirla de la forma más sencilla
+            posible.</p>
+        <p>Para simplificar debemos utilizar Reglas de Reemplazo(Ver Modulo de
+            reglas de reemplazo) para sustituir las estructuras lógicas por otras
+            equivalentes y así poder llegar a una forma más simple pero equivalente.</p>
+        <p>Para comprobar si hay equivalencia las tablas de verdad deben ser iguales.</p>
+        <h3 class="subtitle4">Recomendaciones</h3>
+        <div class="lista">
+            <ul>
+                <li>Comenzar eliminando condicionales (Ley Condicional)</li>
+                <li>Eliminar Negaciones (Ley de Morgan, Ley de Doble Negación)</li>
+                <li>Simplificar hasta tener conjunciones y disyunsiones y aplicar resto de leyes (Conmutativa, asociativa, absorción, etc...).</li>
+            </ul>
+        </div>
+        <div class="obj">
+            <img src="/IMG/Simplifacion.png" alt="" class="img">
+        </div>
+        <div class="obj">
+            <img src="/IMG/SimplifacionDemostracion.png" alt="" class="img">
+        </div>
+    </main>
+</body>
+</html>

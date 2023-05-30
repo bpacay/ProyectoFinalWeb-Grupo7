@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reducción al Absurdo</title>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/IndiceContenido.css">
+    <link rel="stylesheet" href="/CSS/PaginasPrincipal.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="nav__m">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="/index.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Más Temas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="LogicaProposicional.html" class="nav__link nav__link--inside">Lógica Proposicional</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="silogismos.html" class="nav__link nav__link--inside">Silogismos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="TeoriadeConjuntos.html" class="nav__link nav__link--inside">Teoria de Conjuntos</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="ReducciónAbsurdo.html" class="nav__link nav__link--inside">Reducción al Absurdo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Inferencia.html" class="nav__link nav__link--inside">Reglas de Inferencia</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="Reemplazo.html" class="nav__link nav__link--inside">Reglas de Reemplazo</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="DeduccionNatural.html" class="nav__link nav__link--inside">Deducción Natural</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Simplificación.html" class="nav__link nav__link--inside">Simplificación</a>
+                    </li>
+                    
+                    <li class="list__inside">
+                        <a href="Álgebra de Boole.html" class="nav__link nav__link--inside">Álgebra de Boole</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <a href="#" class="nav__link">Asignaturas</a>
+                    <img src="../Iconos/flecha.svg" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Intruducción</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Logica</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Contabilidad</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Desarrollo</a>
+                    </li>
+
+                    
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Metodologia</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="LogicaIndice.html" class="nav__link">Indice Asignatura</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <script src="/JS/Menu.js"></script>
+    
+    <!-- Indice -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Logica en Sistemas</h2>
+            </div >
+            <ul class="nav__link1 nav__link1--menu">
+                <img src="" alt="Contabilidad" class="nav__close">
+            </ul>
+            
+            <div class="nav__menu">
+                <img src="" alt="" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Reducción al Absurdo</h1>
+
+            <a href="LogicaIndice.html" class="cta">Indice</a>
+        </section>
+    </header>
+    <main>
+        <h1 class="subtitle2"></h1>
+        <p><strong>Reductio ad absurdum.</strong> Expresión latina que significa
+            literalmente “reducción al absurdo”, es uno de los métodos
+            lógicos de demostración más usado en matemáticas para
+            demostrar la validez (o invalidez) de proposiciones categóricas.</p>
+        <p>El método de reducción al absurdo consiste en suponer que el
+            resultado a demostrar es falso y llegar, a partir de ahí, a una
+            contradicción.</p>
+        
+        <h2 class="subtitle2">Invalicez Lógica</h2>
+        <p>La validez de un razonamiento, implica que todas sus
+            premisas(necesariamente) sean derivadas hasta llegar a la
+            conclusión, si un razonamiento posee premisas verdaderas y
+            conclusión falsa, entonces ese argumento tiene una forma
+            invalida. Se puede demostrar la INVALIDEZ (contrario a
+            demostrar la validez) de un razonamiento deductivo si
+            haciendo la conclusión falsa, resultan sus premisas verdaderas.</p>
+        <p>Para probar INVALIDEZ se procede en 4 pasos sencillos:</p>
+        <table>
+            <tr>
+                <th>Paso 1</th>
+                <th>Dar a la letra de la conclusión valores de verdad que hagan que esta se convierta en FALSA.</th>
+            </tr>
+            <tr>
+                <td>Paso 2</td>
+                <td>Trasladar esos valores de verdad hacia cada letra en las premisas (la que correspondan a las mismas letras de la conclusión).</td>
+            </tr>
+            <tr>
+                <th>Paso3</th>
+                <th>Asiganr el resto de las letras valores de verdad que hagan cada premisa VERDADERA (de esta forma buscamos que todas las premisas sean verdaderas y la conclusión falsa).</th>
+            </tr>
+            <tr>
+                <td>Paso 4</td>
+                <td>De lograrse el paso 3 tenemos dos opciones: premisas verdaders y conclusión falsa, ese razonamiento es INVALIDO. caso contrario, si no es posible colocar premisas verdaderas y conclusipon falsa, el rezonameinto es VÁLIDO</td>
+            </tr>
+        </table>
+
+        <Table>
+            <tr>
+                <th>El argumento será Invalido cuando:</th>
+                <th>El argumento será Valido cuando:</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>PM1 → V</p>
+                    <p>PM2 → V</p>
+                    <p>PM3 → V</p>
+                    <p>Con → F</p>
+                </td>
+                <td>
+                    <p>PM1 → V</p>
+                    <p>PM2 → F</p>
+                    <p>PM3 → V</p>
+                    <p>Con → F</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Para que un argumento sea
+                        invalido la conclusión debe ser
+                        falsa y sus premisas verdaderas...</p>
+                    <p>Esta estructura indica que el
+                        argumento se contradice por lo
+                        tanto es inválido.</p>
+                </td>
+                <td>
+                    <p>Para que un argumento sea valido
+                        por lo menos una de sus premisas
+                        debe ser falsa</p>
+                    <p>De ser así no hay contradicción
+                        por lo tanto el argumento es
+                        válido.</p>
+                </td>
+            </tr>
+        </Table>
+    </main></body>
+</html>

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
+:root{
+  --padding-container: 100px 0;
+  --color-title: #001A49;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template: "nav_m header"
+                "nav_m main";
+  grid-template-columns: 1.45fr 9fr;
+}
+
+header{
+
+  grid-area: header;
+}
+
+main{
+  grid-area: main;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: var(--padding-container);
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 800px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  color: #fff;
+}
+.hero::before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('https://media.istockphoto.com/id/1472359066/es/foto/formulario-de-encuesta-marcas-de-verificaci%C3%B3n-en-la-lista-de-verificaci%C3%B3n-llenado-de.jpg?s=612x612&w=0&k=20&c=el0Lpn52Ez_pVrjO04UW44hXIYBAAtbAoISpA3KyENs=');
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+  z-index: -1;
+}
+
+/*nav*/
+.nav{
+  --padding-container:0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav__title{
+  font-weight: 300;
+}
+.nav__link{
+  margin-left: auto;
+  padding: 0;
+  gap: 5em;
+}
+.nav__items{
+  list-style: none;
+}
+
+.nav__link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__menu{
+  margin-left: auto;
+  cursor: pointer;
+  display: none;
+}
+.nav__img{
+  display: block;
+  display: 30px;
+}
+.nav__close{
+  display: var(--show, none);
+}
+
+/*hero container*/
+.hero__container{
+  max-width: 800px;
+  --padding-container:0;
+  display: grid;
+  grid-auto-rows: max-content;
+  align-content: center;
+  gap: 1em;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.hero__title{
+  font-size: 5rem;
+}
+.hero__paragraph{
+  margin-bottom: 20px;
+}
+.cta{
+  display: inline-block;
+  background-color: #4d5e6d;
+  justify-self: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 30px;
+}
+
+/*about*/
+
+.about{
+  text-align: center;
+}
+.subtitle{
+  color: var(--color-title);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.subtitle2{
+  color: var(--color-title);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about__paragraph{
+  line-height: 1.7;
+}
+.about__paragraph2{
+  text-align: justify;
+}
+.about__list2{
+  text-align: justify;
+}
+.about__main{
+  padding-top: 80px;
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  gap: 1em;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icons2{
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  width: 680px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+
+/*knowledge*/
+
+.knowledge{
+  background: linear-gradient(90deg, #c7e0f5, rgb(178, 173, 206))
+}
+.knowledge__paragraph{
+  text-align: justify;
+}
+.knowledge__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: center;
+}
+.knowledge__picture{
+  max-width: 500px;
+}
+.knowledge__img{
+  width: 100%;
+  display: block;
+}
+
+.knowledge__container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+}
+.knowledge__picture2{
+  max-width: 500px;
+}
+.knowledge__img2{
+  width: 100%;
+  display: block;
+}
+
+
+  /*card*/
+
+  .card__copy{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.card__container{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "card1  card2";
+}
+
+.card__item{
+    padding: 20px;
+    background-color: #fff;
+    border-top: 5px solid #667eea;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__img{
+    background-color: #172c55bd;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__title{
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.card__paragraph{
+    font-size: 300;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+/*footer*/
+.footer{
+    background-color: #1D293F;
+  }
+  .footer__title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .footer__title2{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .footer__title, .footer__title2, .footer__newsletter{
+    color: #fff;
+  }
+  
+  .footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+  }
+  
+  .naav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+  }
+  
+  .nav__link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer__copyright{
+    font-size: 300;
+  }
+  
+  .footer__img{
+    width: 40px;
+    height: 40px;
+  }
